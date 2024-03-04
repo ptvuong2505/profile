@@ -1,0 +1,283 @@
+body {
+    margin: 0px;
+}
+
+.cv-document {
+	box-sizing: border-box;
+	border: none;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	font-family: arial, sans-serif, tahoma;
+	font-size: 10pt;
+}
+
+.cv-page {
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+    width: 900px;
+    min-height: 900px;
+    margin: 0 auto;
+    box-shadow: 0 0 1px rgba(0,0,0,.5);
+    background-color: #fff;
+    position: relative;
+
+    padding: 40px;
+}
+
+/* INFO */
+.section{
+    margin: 40px 0 40px 0;
+}
+
+.section-title-info{
+    display: block;
+    height: 30px;
+    color: #0e2452;
+    margin: 10px 0 10px;
+}
+
+#info{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3px;
+}
+
+.content-image img{   
+   width: 113px;
+   padding: 3px;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    font-size: larger;
+    height: 30px;
+    padding: 2px;
+}
+
+.info p:nth-child(1){
+    font-weight: bold;
+    padding-right: 5px;
+    width: 100px;
+}
+.info p:nth-child(2){
+    margin: 20px;
+    font-weight: 500;
+}
+
+.section-title{
+    border-bottom: 3px outset;
+    text-transform: uppercase;
+
+}
+
+p{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: large;
+}
+
+/* Hoc Van */
+.ac{
+    display: flex;
+    flex-direction: row;
+    padding: 5px 0px 5px;
+    size: 50px;
+    border-bottom: 1.5px ridge;
+    margin-left: 10px;
+}
+
+.ac-info{
+    margin-left: 60px;
+}
+
+.ac-info h2 {
+    margin: 0px 0px 5px;
+}
+
+.ac-info p{
+    margin: 0px;
+}
+
+.timeline p{
+    padding-left: 10px;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: large;
+}
+
+.section-content-hocvan{
+    padding-left: 0 ;
+}
+
+ul.section-content-kinhnghiem, .section-content-hocvan {
+    border-left: 2px outset;
+    position: relative;
+}
+
+.ac::before{
+    content: "";
+    position: absolute;
+    margin: 10px -14px;
+    width: 7px;
+    height: 7px;
+    border-radius: 4px;
+    background-color: black;
+}
+
+/* Kinh nghiem lam viec */
+
+.experience{
+    display: flex;
+    flex-direction: row;
+    padding: 15px 0 5px;
+    height: auto;
+    border-bottom: 1.5px ridge;
+}
+
+.ex-info{
+    margin-left: 70px;
+}
+
+.ex-info h2 {
+    margin: 0px;
+}
+
+.ex-info p{
+    padding-top: 0px 0 10px;
+    margin: 0px;
+}
+
+.section-content-kinhnghiem{
+    padding-left: 10px;
+}
+
+.timeline-ex p{
+    width:110px;
+    margin-top: 0;
+    padding-left: 10px;
+}
+
+.experience::before{
+    content: "";
+    position: absolute;
+    margin: 10px -14px;
+    width: 7px;
+    height: 7px;
+    border-radius: 4px;
+    background-color: black;
+}
+
+/* Hoat dong */
+
+ol li{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: large;
+    height: 50px;
+}
+
+
+.section-content-hoatdong{
+    display: inline-block;
+    margin-top: 10px;
+    padding-left: 30px;
+}
+
+/* KY Nang */
+li.kynang{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: large;
+    height: 50px;
+}
+
+ul.list-kynang{
+    padding-left: 30px;
+}
+
+.section-content-kynang{
+    margin-top: 20px;
+}
+
+/* cer */
+
+li.cer{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: large;
+    height: 50px;
+}
+
+ul.list-cer{
+    padding-left: 30px;
+}
+
+.section-content-chungnhan{
+    margin-top: 20px;
+}
+
+/* HOBBY */
+.section-content-hb p{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: large;
+}
+
+/* Du an */
+
+.name-project {
+    text-transform:uppercase;
+    margin-bottom: 5px;
+
+}
+
+.project{
+    margin-bottom: 10px;
+}
+
+p.time-project{
+    margin: 0;
+    font-size: small;
+    font-weight: 600;
+}
+
+.list-info-project{
+    padding-left: 30px;
+    margin-top: 0;
+}
+
+ul.list-info-project{
+    list-style-type:disc;
+    font-weight: 700;
+    font-size: large;
+}
+
+.info-project p{
+    padding-left: 10px;
+    font-weight: 600;
+    margin: 0;
+}
+
+
+/* Contract */
+
+.link a{
+    color: blue;
+    text-decoration: none;
+}
+
+.contract li{
+    height: 35px;
+}
